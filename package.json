@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
+    "build": "cd app && pnpm build",
     "dev": "pnpm -r dev",
     "format": "prettier --cache --write ."
   },
